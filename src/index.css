@@ -8,7 +8,7 @@ ul {
 }
 
 body {
-  background-color: #ffccb3;
+  background-color: #f9e3d7;
 }
 
 main {
@@ -40,13 +40,20 @@ h2 {
 
 .btn-ref {
   border-radius: 6px solid;
-  padding: 3px;
+  padding: 0 3px;
   margin-bottom: 10px;
+}
+
+.btn-ref:hover {
+  background-color: #f6dada;
+  color: rgb(54, 52, 52);
 }
 
 .score-list {
   padding: 0;
   border: 1.5px dotted black;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .score-list li {
@@ -54,11 +61,16 @@ h2 {
 }
 
 .score-list li:nth-child(odd) {
-  background-color: #eee;
+  background-color: #f9e3d7;
 }
 
 .form-sec {
   flex: 1;
+  border: 2px solid;
+  height: 200px;
+  padding-top: 13px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #f29393;
 }
 
 h4 {
@@ -77,10 +89,12 @@ h4 {
 
 .name {
   padding: 5px;
+  border-radius: 6px;
 }
 
 .number {
   padding: 5px;
+  border-radius: 6px;
 }
 
 .btn-submit {
