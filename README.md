@@ -42,4 +42,4 @@ Give a ⭐️ if you like this project!
 - Thanks to Cindy Shin the author of the original desig
 
 ## 📝 License
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
