@@ -3,11 +3,9 @@ import Items from './modules/display';
 
 
 const refreshBtn = document.querySelector('.btn-ref');
-const subm = document.querySelector('.btn-submit')
 const name = document.querySelector('.name');
 const score = document.querySelector('.number');
 const form = document.querySelector('#form');
-// Items.getData();
 
 const gameInfo = async (data) => {
 const resp = await fetch (`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/RjH6JglhUiy5dVBUHC3M/scores
@@ -32,7 +30,6 @@ form.addEventListener('submit', async (e) => {
     form.reset()
   });
   
-  refreshBtn.addEventListener('click', () => {
-    window.location.reload();
+  refreshBtn.addEventListener('click', async () => {
+    await Items.takeScore();
   });
-
