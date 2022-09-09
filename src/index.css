@@ -53,6 +53,10 @@ h2 {
   padding: 8px;
 }
 
+.score-list li:nth-child(odd) {
+  background-color: #eee;
+}
+
 .form-sec {
   flex: 1;
 }
