@@ -48,13 +48,13 @@ h2 {
   padding: 0;
   border: 1.5px dotted black;
 }
-.score-list li:nth-child(odd) {
-  background-color: #eee;
-}
-
 
 .score-list li {
   padding: 8px;
+}
+
+.score-list li:nth-child(odd) {
+  background-color: #eee;
 }
 
 .form-sec {
